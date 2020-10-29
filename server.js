@@ -1,27 +1,28 @@
-// Dependencies
-// =============================================================
 const express = require("express");
 const mongoose = require("mongoose");
 
-// Sets up the Express App
+const PORT = process.env.PORT || 3007;
 
 const app = express();
-// ALWAYS check to see if the Port number is being used!!!
-const PORT = process.env.PORT || 3050;
 
-
-// Sets up the Express app to handle data parsing
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 app.use(express.static("public"));
 
+mongoose.connect(
+    process.env.MONGODB_URI || 'mongodb://localhost/GetFit', {
+        useNewUrlParser: true,
+        useUnifiedTopology: true,
+        useCreateIndex: true,
+        useFindAndModify: false
+    }
+);
 
-// Routes
-app.use(require("./routes/apiRoutes"));
-app.use(require("./routes/htmlRoutes"));
+// routes
+app.use(require("./routes/apiRoutes.js"));
+app.use(require("./routes/htmlRoutes.js"));
 
-// Starts the server to begin listening
 app.listen(PORT, () => {
-    console.log("App listening on PORT " + PORT);
+    console.log(`App running on port ${PORT}!`);
 });
