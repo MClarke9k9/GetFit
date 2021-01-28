@@ -48,7 +48,7 @@ function populateChart(data) {
     type: "line",
     data: {
       labels: [
-        "Sunday",
+        'Sunday',
         "Monday",
         "Tuesday",
         "Wednesday",
