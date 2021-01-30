@@ -6,7 +6,6 @@ const PORT = process.env.PORT || 3007;
 
 const app = express();
 
-// app.use(logger("dev"));
 
 
 app.use(express.urlencoded({ extended: true }));
