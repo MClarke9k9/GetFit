@@ -15,7 +15,7 @@ let workoutSeed = [
         type: "resistance",
         name: "Type of Workout",
         duration: 20,
-        weight: 100,
+        weight: 200,
         reps: 10,
         sets: 3
       }
