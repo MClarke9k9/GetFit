@@ -13,11 +13,11 @@ let workoutSeed = [
     exercises: [
       {
         type: "resistance",
-        name: "Bicep Curl",
+        name: "Type of Workout",
         duration: 20,
         weight: 100,
         reps: 10,
-        sets: 4
+        sets: 3
       }
     ]
   },
