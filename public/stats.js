@@ -60,7 +60,7 @@ function populateChart(data) {
         {
           label: "Workout Duration In Minutes",
           backgroundColor: 'red',
-          borderColor: "red",
+          borderColor: 'red',
           data: durations,
           fill: false
         }
