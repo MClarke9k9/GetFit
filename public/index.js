@@ -11,3 +11,18 @@ async function init() {
   }
 }
 
+// const foo = (x,y) => {
+//   let result = y;
+//   let arr = x;
+//   if (result.length !== arr.length) {
+//     return null;
+//   }
+
+//   for(let i = 0; i < arr.length; i++) {
+//     if(arr[i] = result) {
+//       return "Woohoo you did it!";
+//     } else {
+//       return null;
+//     }
+//   }
+// }

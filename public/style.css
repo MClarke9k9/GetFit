@@ -17,9 +17,9 @@ body {
 }
 
 nav {
-  background-color: gold;
+  background-color: blue;
   color: white;
-  height: 80px;
+  height: 70px;
   padding: 10px;
   line-height: 3;
   font-size: 1.2rem;
