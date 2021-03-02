@@ -195,7 +195,7 @@ function duration(data) {
     });
   });
 
-  return durations;
+  return duration;
 }
 
 function calculateTotalWeight(data) {
