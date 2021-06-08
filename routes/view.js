@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> 526eed23953d0d612cf8f98f8134c4fb09cab8c4
 const router = require("express").Router();
 const path = require("path");
 
