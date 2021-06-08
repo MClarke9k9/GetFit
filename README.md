@@ -18,6 +18,7 @@ A consumer will reach their fitness goals more quickly when they track their wor
 
 <img width="782" alt="fitness3" src="https://user-images.githubusercontent.com/64516562/94640654-84236d00-029c-11eb-8e4f-e65f2c9b4ac1.PNG">
 
+<<<<<<< HEAD
 https://calm-anchorage-75848.herokuapp.com/
 
 ---
@@ -47,3 +48,7 @@ You are required to submit the following:
 - The URL to the deployed application
 
 - The URL to the GitHub repository
+=======
+  * View multiple the combine weight of multiple exercises on the `stats` page.
+
+>>>>>>> 526eed23953d0d612cf8f98f8134c4fb09cab8c4

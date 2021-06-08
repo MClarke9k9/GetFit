@@ -1,3 +1,4 @@
+// ---<@
 const workoutTypeSelect = document.querySelector("#type");
 const cardioForm = document.querySelector(".cardio-form");
 const resistanceForm = document.querySelector(".resistance-form");
@@ -11,8 +12,8 @@ const resistanceDurationInput = document.querySelector("#resistance-duration");
 const distanceInput = document.querySelector("#distance");
 const completeButton = document.querySelector("button.complete");
 const addButton = document.querySelector("button.add-another");
-const toast = document.querySelector("#toast");
-const newWorkout = document.querySelector(".new-workout")
+const toast = document.querySelector('#toast');
+const newWorkout = document.querySelector('.new-workout')
 
 let workoutType = null;
 let shouldNavigateAway = false;

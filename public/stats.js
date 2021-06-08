@@ -48,7 +48,7 @@ function populateChart(data) {
     type: "line",
     data: {
       labels: [
-        "Sunday",
+        'Sunday',
         "Monday",
         "Tuesday",
         "Wednesday",
@@ -59,8 +59,8 @@ function populateChart(data) {
       datasets: [
         {
           label: "Workout Duration In Minutes",
-          backgroundColor: "red",
-          borderColor: "red",
+          backgroundColor: 'red',
+          borderColor: 'red',
           data: durations,
           fill: false
         }
@@ -131,7 +131,7 @@ function populateChart(data) {
     options: {
       title: {
         display: true,
-        text: "Pounds Lifted"
+        text: "Pounds Lift"
       },
       scales: {
         yAxes: [
@@ -151,7 +151,7 @@ function populateChart(data) {
       labels: workouts,
       datasets: [
         {
-          label: "Excercises Performed",
+          label: "Excercises Perform",
           backgroundColor: colors,
           data: durations
         }
@@ -160,7 +160,7 @@ function populateChart(data) {
     options: {
       title: {
         display: true,
-        text: "Excercises Performed"
+        text: "Excercises Perform"
       }
     }
   });
