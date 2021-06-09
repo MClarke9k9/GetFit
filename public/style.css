@@ -17,9 +17,15 @@ body {
 }
 
 nav {
+<<<<<<< HEAD
+  background-color: #5793fd;
+  color: #ffffff;
+  height: 80px;
+=======
   background-color: blue;
   color: white;
   height: 70px;
+>>>>>>> 526eed23953d0d612cf8f98f8134c4fb09cab8c4
   padding: 10px;
   line-height: 3;
   font-size: 1.2rem;
@@ -96,7 +102,7 @@ input {
 }
 
 .wrapper {
-  background-color: grey;
+  background-color: #f2f8ff;
   padding-bottom: 100px;
 }
 
